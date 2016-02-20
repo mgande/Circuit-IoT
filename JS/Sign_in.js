@@ -11,6 +11,12 @@ $('.tabs .tab').click(function(){
         $('.cont').hide();
         $('.signup-cont').show();
     }
+    if ($(this).hasClass('search')) {
+        $('.tabs .tab').removeClass('active');
+        $(this).addClass('active');
+        $('.cont').hide();
+        $('.search-cont').show();
+    }
 });
 $('.container .bg').mousemove(function(e){
     var amountMovedX = (e.pageX * -1 / 30);
