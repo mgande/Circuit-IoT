@@ -31,7 +31,7 @@ body .container .half {
   padding: 58px 40px 0;
 }
 body .container .half.bg {
-  //background-image: url("http://s7.postimg.org/boj7tcxhn/image.jpg");
+  background-image: url("../src/book.jpeg");
   background-size: 400px;
   background-repeat: no-repeat;
 }
